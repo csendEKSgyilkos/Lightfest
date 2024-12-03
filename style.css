@@ -1,0 +1,182 @@
+body {
+  margin: 0%;
+}
+
+main {
+  background-image: url(img/háttér.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+  height: 500px;
+}
+
+.fejlec {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  background-color: #15142b;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  padding: 1%;
+  padding-left: 2%;
+}
+
+.logokep {
+  max-width: 100%;
+  height: auto;
+}
+
+.piktogram {
+  max-width: 120%;
+  height: auto;
+}
+
+.text {
+  color: #fff;
+  background-color: #15142b;
+  padding: 2%;
+  font-family: "Istok Web";
+  font-size: 18px;
+  width: 70%;
+  display: flex;
+  float: right;
+  margin-right: 2%;
+}
+
+.szoveg {
+  flex-direction: column;
+  text-align: left;
+  align-items: end;
+}
+
+.gomb {
+  background-color: none;
+  color: #fff;
+  font-family: "Istok Web";
+  font-size: 18px;
+  padding: 0.5%;
+  border-style: solid;
+  border-color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+  margin-left: 4%;
+  width: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.gomb:hover {
+  background-color: #ae1739;
+  color: #fff;
+}
+
+.ikonok {
+  margin-top: 7%;
+}
+
+.button {
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-style: none;
+  width: 5%;
+  margin-top: 1%;
+  margin-left: 4%;
+}
+
+.button:hover {
+  background-color: #ae1739;
+}
+
+.lablec {
+  background-color: #15142b;
+  margin: 0%;
+  padding: 2%;
+}
+
+.also {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-family: "Istok Web";
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  margin: 1%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  padding: 1%;
+  font-weight: bolder;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn:hover {
+  color: #ae1739;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.torzs {
+  display: flex;
+}
+
+.oldallec {
+  width: 50%;
+}
+
+.foszoveg {
+  float: right;
+}
+
+.navigation {
+  margin-top: 4%;
+}
+
+@media screen and (max-width: 815px) {
+  .gomb {
+    font-size: 10px;
+
+    .text {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .text {
+    font-size: 12px;
+  }
+
+  .gomb {
+    font-size: 9px;
+    margin: 5%;
+    width: none;
+    margin-left: 3%;
+  }
+
+  .piktogram {
+    max-width: 300%;
+    height: auto;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+  .navigation {
+    margin-top: 6%;
+  }
+}
